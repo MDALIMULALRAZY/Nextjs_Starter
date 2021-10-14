@@ -1,9 +1,13 @@
 import { useEffect } from 'react'
-
+import styles from '../styles/About.module.scss';
 const About = () => {
     return (
         <>
-            <h1>Yo its me</h1>
+        <div>
+        <h1 className={styles.highlight}>Yo its me</h1>
+
+        </div>
+           
         </>
     )
 }
