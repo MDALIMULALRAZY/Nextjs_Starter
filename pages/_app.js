@@ -18,11 +18,12 @@
 // }
 
 // export default MyApp
-
 import App from "next/app";
 import React from "react";
 import withReduxStore from "../lib/with-redux-store";
 import { Provider } from "react-redux";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 class MyApp extends App {
   render() {
     const { Component, pageProps, reduxStore } = this.props;
